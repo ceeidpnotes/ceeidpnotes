@@ -7,7 +7,7 @@ Base scenarios:
 - Simple “login” app
 - MT Tenant - differences in "simple" app
 - FREE TENANT
-- What will change AAD B2C - and whe to use it.
+- What will change AAD B2C - and when to use it.
 - ST App + Cosmos + RBAC on Roles List / Edit 
 - MT Tenant + RBAC on Groups
 - Combine with Azure Configuration Services

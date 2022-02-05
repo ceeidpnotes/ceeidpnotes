@@ -25,3 +25,8 @@ https://app.getpostman.com/run-collection/f77994d794bab767596d
 
 
 https://jwt.io/
+
+
+https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-optional-claims#configuring-group-optional-claims
+
+

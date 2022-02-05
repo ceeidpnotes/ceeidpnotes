@@ -8,3 +8,20 @@ https://graph.microsoft.com/v1.0/me/memberOf
 
 
 https://docs.microsoft.com/en-us/graph/use-postman
+
+https://graph.microsoft.com/v1.0/me/appRoleAssignments?$filter=
+
+https://docs.microsoft.com/en-us/graph/query-parameters
+
+https://graph.microsoft.com/v1.0/me/appRoleAssignments?$select=resourceDisplayName
+
+https://graph.microsoft.com/v1.0/me/appRoleAssignments?$select=*
+
+
+
+https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow
+
+https://app.getpostman.com/run-collection/f77994d794bab767596d
+
+
+https://jwt.io/

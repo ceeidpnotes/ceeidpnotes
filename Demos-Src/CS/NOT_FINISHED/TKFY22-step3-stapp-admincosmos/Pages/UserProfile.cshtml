@@ -1,0 +1,15 @@
+﻿@page
+@model TKFY22_step3_stapp_admincosmos.Pages.UserProfileModel
+@{
+}
+<p>UserPrincipalName: @Model.Me.UserPrincipalName</p>
+<hr />
+<p>Claims:</p>
+@foreach (var x in @Model.NetClaims)
+    {<li>@x.Type - @x.Value</li>}
+<hr />
+<p>Identity</p>
+<p>Identity.Name: @Model.NetIdentity.Name</p>
+@foreach (var x in @Model.NetIdentity.Claims)
+    {<li>@x.Type - @x.Value</li>}
+

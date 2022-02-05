@@ -1,0 +1,40 @@
+﻿@page
+@model TKFY22_step3_stapp_admincosmos.Pages.SubscriptionModel
+
+@{
+    ViewData["Title"] = "Subscription";
+}
+
+<h1>Subscription</h1>
+
+<h4>Subscription</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Subscription.IsActive" /> @Html.DisplayNameFor(model => model.Subscription.IsActive)
+                </label>
+            </div>
+            <input type="hidden" asp-for="Subscription.Id" />
+            <div class="form-group">
+                <label asp-for="Subscription.PartitionKey" class="control-label"></label>
+                <input asp-for="Subscription.PartitionKey" class="form-control" />
+                <span asp-validation-for="Subscription.PartitionKey" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

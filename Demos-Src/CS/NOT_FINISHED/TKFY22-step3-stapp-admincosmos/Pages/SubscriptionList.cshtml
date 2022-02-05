@@ -1,0 +1,43 @@
+﻿@page
+@model TKFY22_step3_stapp_admincosmos.Pages.SubscriptionListModel
+
+@{
+    ViewData["Title"] = "SubscriptionList";
+}
+
+<h1>SubscriptionList</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Subscription[0].IsActive)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Subscription[0].PartitionKey)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Subscription[0].Id)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Subscription) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsActive)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PartitionKey)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                <a asp-page="./Subscription" asp-route-id="@item.Id">E</a> |
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

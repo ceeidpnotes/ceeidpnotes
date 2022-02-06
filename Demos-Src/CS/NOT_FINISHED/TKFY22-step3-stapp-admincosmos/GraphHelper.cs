@@ -31,7 +31,7 @@ namespace TKFY22_step3_stapp_admincosmos
 
             // Append the access token to the request.
             request.Headers.Authorization = new AuthenticationHeaderValue(
-                Constants.BearerAuthorizationScheme, accessToken);
+                "Bearer", accessToken);
         }
     }
 

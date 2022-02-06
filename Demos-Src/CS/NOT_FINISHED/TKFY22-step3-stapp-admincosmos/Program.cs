@@ -44,7 +44,7 @@ builder.Services
         options.Domain = builder.Configuration["AzureAd:Domain"];
         options.TokenValidationParameters.RoleClaimType = "roles"; //To get roles!
     })
-    .EnableTokenAcquisitionToCallDownstreamApi(new string[] { GraphScopes.UserRead })
+    .EnableTokenAcquisitionToCallDownstreamApi(new string[] { "User.Read" })
     .AddMicrosoftGraph(graphBaseUrl : "https://graph.microsoft.com/v1.0", defaultScopes : "user.read")
     .AddInMemoryTokenCaches();
     //.AddSessionTokenCaches();

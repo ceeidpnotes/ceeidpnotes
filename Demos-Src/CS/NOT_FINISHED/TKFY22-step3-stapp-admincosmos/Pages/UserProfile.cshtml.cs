@@ -10,7 +10,7 @@ using System.Security.Principal;
 namespace TKFY22_step3_stapp_admincosmos.Pages
 {
     [Authorize]
-    [AuthorizeForScopes(Scopes = new[] { Constants.ScopeUserRead })]
+    [AuthorizeForScopes(Scopes = new[] { "User.Read" })]
     public class UserProfileModel : PageModel
     {
         private readonly ITokenAcquisition _tokenAcquisition;
@@ -33,7 +33,7 @@ namespace TKFY22_step3_stapp_admincosmos.Pages
         }
         public async Task OnGet()
         {
-            GraphServiceClient graphClient = getGraphServiceClient(new[] { Constants.ScopeUserRead });
+            GraphServiceClient graphClient = getGraphServiceClient(new[] { "User.Read" });
 
             Me = await graphClient.Me.Request().GetAsync();
             MeAppRolesAsigments = await graphClient.Me.AppRoleAssignments.Request().GetAsync();

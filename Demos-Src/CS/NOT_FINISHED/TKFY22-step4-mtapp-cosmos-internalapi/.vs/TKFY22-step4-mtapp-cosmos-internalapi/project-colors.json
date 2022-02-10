@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6e5ec2ce-fb24-4811-a129-4aa4ec2b43f7": {
+      "ProjectGuid": "6e5ec2ce-fb24-4811-a129-4aa4ec2b43f7",
+      "DisplayName": "TKFY22-step4-mtapp-cosmos-internalapi",
+      "ColorIndex": 0
+    },
+    "39e8faa8-6b1e-492b-b1e8-bf22e1290171": {
+      "ProjectGuid": "39e8faa8-6b1e-492b-b1e8-bf22e1290171",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 1
+    },
+    "a4cccc3e-e76e-42eb-beb1-3731a339d5f7": {
+      "ProjectGuid": "a4cccc3e-e76e-42eb-beb1-3731a339d5f7",
+      "DisplayName": "TKFY22-step4-mtapp-api-server",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 3
+}

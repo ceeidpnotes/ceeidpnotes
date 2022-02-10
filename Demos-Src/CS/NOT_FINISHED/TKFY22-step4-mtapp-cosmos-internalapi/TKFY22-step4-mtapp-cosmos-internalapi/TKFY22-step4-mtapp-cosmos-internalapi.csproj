@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>fy21_simplemtapp</RootNamespace>
+    <UserSecretsId>b834b8f2-9369-4801-98f7-f15f2bbb7394</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Cosmos" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Identity.Web" Version="1.22.3" />
+    <PackageReference Include="Microsoft.Identity.Web.UI" Version="1.22.3" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+</Project>

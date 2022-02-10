@@ -1,0 +1,121 @@
+{
+	"id": "3eac7cfd-d932-4d2c-ad3b-9daba5923f41",
+	"acceptMappedClaims": null,
+	"accessTokenAcceptedVersion": null,
+	"addIns": [],
+	"allowPublicClient": null,
+	"appId": "0b30a494-734f-4fb3-b352-28ddb9038e6b",
+	"appRoles": [
+		{
+			"allowedMemberTypes": [
+				"User",
+				"Application"
+			],
+			"description": "Api01",
+			"displayName": "Api01",
+			"id": "bbf60dbf-118e-47c9-b908-f522fc09119d",
+			"isEnabled": true,
+			"lang": null,
+			"origin": "Application",
+			"value": "Api01"
+		},
+		{
+			"allowedMemberTypes": [
+				"User",
+				"Application"
+			],
+			"description": "Page03Api",
+			"displayName": "Page03Api",
+			"id": "25fa2913-882f-4e35-823a-fc69fd6bf142",
+			"isEnabled": true,
+			"lang": null,
+			"origin": "Application",
+			"value": "Page03Api"
+		},
+		{
+			"allowedMemberTypes": [
+				"User",
+				"Application"
+			],
+			"description": "Page02",
+			"displayName": "Page02",
+			"id": "14a65fcb-9b0a-4ffe-b41f-030e8cf3f2a5",
+			"isEnabled": true,
+			"lang": null,
+			"origin": "Application",
+			"value": "Page02"
+		},
+		{
+			"allowedMemberTypes": [
+				"User",
+				"Application"
+			],
+			"description": "Page01",
+			"displayName": "Page01",
+			"id": "6f444791-8367-4964-a425-b707d66e9d13",
+			"isEnabled": true,
+			"lang": null,
+			"origin": "Application",
+			"value": "Page01"
+		}
+	],
+	"oauth2AllowUrlPathMatching": false,
+	"createdDateTime": "2022-02-06T19:15:20Z",
+	"description": null,
+	"certification": null,
+	"disabledByMicrosoftStatus": null,
+	"groupMembershipClaims": "All",
+	"identifierUris": [],
+	"informationalUrls": {
+		"termsOfService": null,
+		"support": null,
+		"privacy": null,
+		"marketing": null
+	},
+	"keyCredentials": [],
+	"knownClientApplications": [],
+	"logoUrl": null,
+	"logoutUrl": null,
+	"name": "TKFY22-step4-mtapp-cosmos-internalapi",
+	"notes": null,
+	"oauth2AllowIdTokenImplicitFlow": true,
+	"oauth2AllowImplicitFlow": false,
+	"oauth2Permissions": [],
+	"oauth2RequirePostResponse": false,
+	"optionalClaims": null,
+	"orgRestrictions": [],
+	"parentalControlSettings": {
+		"countriesBlockedForMinors": [],
+		"legalAgeGroupRule": "Allow"
+	},
+	"passwordCredentials": [],
+	"preAuthorizedApplications": [],
+	"publisherDomain": "tkfreeaad.onmicrosoft.com",
+	"replyUrlsWithType": [
+		{
+			"url": "https://localhost:7052/signin-oidc",
+			"type": "Web"
+		},
+		{
+			"url": "https://localhost:7052",
+			"type": "Web"
+		}
+	],
+	"requiredResourceAccess": [
+		{
+			"resourceAppId": "00000003-0000-0000-c000-000000000000",
+			"resourceAccess": [
+				{
+					"id": "e1fe6dd8-ba31-4d61-89e7-88639da4683d",
+					"type": "Scope"
+				}
+			]
+		}
+	],
+	"samlMetadataUrl": null,
+	"serviceManagementReference": null,
+	"signInUrl": null,
+	"signInAudience": "AzureADMultipleOrgs",
+	"tags": [],
+	"tokenEncryptionKeyId": null
+}

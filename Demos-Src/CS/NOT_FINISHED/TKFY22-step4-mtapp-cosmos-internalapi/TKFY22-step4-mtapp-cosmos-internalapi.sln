@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TKFY22-step4-mtapp-cosmos-internalapi", "TKFY22-step4-mtapp-cosmos-internalapi\TKFY22-step4-mtapp-cosmos-internalapi.csproj", "{6E5EC2CE-FB24-4811-A129-4AA4EC2B43F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{39E8FAA8-6B1E-492B-B1E8-BF22E1290171}"
+	ProjectSection(SolutionItems) = preProject
+		manifest (sample!!!!).txt = manifest (sample!!!!).txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TKFY22-step4-mtapp-api-server", "TKFY22-step4-mtapp-api-server\TKFY22-step4-mtapp-api-server.csproj", "{A4CCCC3E-E76E-42EB-BEB1-3731A339D5F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E5EC2CE-FB24-4811-A129-4AA4EC2B43F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E5EC2CE-FB24-4811-A129-4AA4EC2B43F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E5EC2CE-FB24-4811-A129-4AA4EC2B43F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E5EC2CE-FB24-4811-A129-4AA4EC2B43F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4CCCC3E-E76E-42EB-BEB1-3731A339D5F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4CCCC3E-E76E-42EB-BEB1-3731A339D5F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4CCCC3E-E76E-42EB-BEB1-3731A339D5F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4CCCC3E-E76E-42EB-BEB1-3731A339D5F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3553391-E6AC-4BB2-B5B3-F22F1B7B102F}
+	EndGlobalSection
+EndGlobal

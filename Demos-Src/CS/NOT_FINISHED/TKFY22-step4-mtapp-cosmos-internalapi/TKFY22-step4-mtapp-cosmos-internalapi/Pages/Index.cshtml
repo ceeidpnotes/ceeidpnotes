@@ -1,0 +1,20 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <a href="Reset">Reset SaaS DB</a><br />
+    <a href="LoginMT">LoginMT</a><br />
+    <a href="App/Page01">App/Page01</a><br />
+    <a href="App/Page02">App/Page02</a><br />
+    <a href="App/Page03ApiApi02">App/Page03ApiApi02</a><br />
+    <hr />
+    <h3>Consents</h3>
+    <p>Api02 
+    <a href="@Model.Api02Consent">@Model.Api02Consent</a>
+    <small>Important! API02 Ent app must be created in target tenant - simples - to request graph api scope (we will use it in the next step)</small>
+    </p>
+    <p>UI Client calling API <a href="@Model.WebUIConsent">@Model.WebUIConsent</a> </p>
+</div>

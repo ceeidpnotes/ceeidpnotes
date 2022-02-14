@@ -36,7 +36,6 @@ namespace fy21_simplemtapp
                 var content = await response.Content.ReadAsStringAsync();
                 return content;
             }
-
             throw new HttpRequestException($"Invalid status code in the HttpResponseMessage: {response.StatusCode}.");
         }
 

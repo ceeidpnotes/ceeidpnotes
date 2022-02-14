@@ -1,0 +1,24 @@
+﻿@page
+@using System.Security.Claims
+@model fy21_simplemtapp.Pages.LoginMTModel
+@{
+     ViewData["Title"] = "LoginMT";
+}
+<p>OK!</p>
+@foreach (var item in ((ClaimsIdentity) User.Identity).Claims)
+{
+    <p>@item</p>
+}
+<hr />
+<code> (example for tkopacz@tomaszkopacz.pl)<br />
+    aio: ATQAy/8TAAAAok4GkmlpXPquVSMyYm/nOiz3PJMbx9DzLldNXUzBT6dHgjOGZqkgOuP5PCF3PB+/<br />
+    name: Tomasz Kopacz<br />
+    http://schemas.microsoft.com/identity/claims/objectidentifier: 15dd2677-673f-4469-ac24-502230a4969b<br />
+    preferred_username: tkopacz@tomaszkopacz.pl<br />
+    rh: 0.AQUAc7S4Z-C430y-9smxS-q6SCfvsAe-XuBJmhSoKhRcOZgFAB8.<br />
+    http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier: pvV4wx3qcmNpxCpIj5hvdMQvJ4BAwWfaUUtSGt9UZ6M<br />
+    http://schemas.microsoft.com/identity/claims/tenantid: 67b8b473-b8e0-4cdf-bef6-c9b14beaba48<br />
+    uti: twETFlwOOUKm41tUP4lhAQ<br />
+    (if sample moved - delete usersecrets!)
+    In csproj, UserSecretsId cd10b07d-90f6-4cb5-a0fa-3aef64bb6ad6
+</code>

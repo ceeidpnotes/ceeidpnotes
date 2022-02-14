@@ -5,24 +5,24 @@ using System.Net.Http.Headers;
 
 namespace fy21_simplemtapp
 {
-    public class API02HttpClient
+    public class API01HttpClient
     {
+        private IConfiguration _configuration;
         private HttpClient _clt;
 
         private ITokenAcquisition _tokenAcquisition;
-        private string _scope;
         private string _baseURL;
         private string _redirectUri;
         private string _apiRedirectUri;
 
-        public API02HttpClient(ITokenAcquisition tokenAcquisition, HttpClient client, IConfiguration configuration)
+        public API01HttpClient(ITokenAcquisition tokenAcquisition, HttpClient client, IConfiguration configuration)
         {
+            _configuration = configuration;
             _clt = client;
             _tokenAcquisition = tokenAcquisition;
-            _scope = configuration["Api02:Scope"];
-            _baseURL = configuration["Api02:BaseURL"];
+            _baseURL = configuration["Api01:BaseURL"];
             _redirectUri = configuration["RedirectUri"];
-            _apiRedirectUri = configuration["Api02:AdminConsentRedirectApi"];
+            _apiRedirectUri = configuration["Api01:AdminConsentRedirectApi"];
             _clt.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
         }
 
@@ -36,13 +36,12 @@ namespace fy21_simplemtapp
                 var content = await response.Content.ReadAsStringAsync();
                 return content;
             }
-
             throw new HttpRequestException($"Invalid status code in the HttpResponseMessage: {response.StatusCode}.");
         }
 
         private async Task prepareAuthenticatedClient()
         {
-            var accessToken = await _tokenAcquisition.GetAccessTokenForUserAsync(new[] { _scope });
+            var accessToken = await _tokenAcquisition.GetAccessTokenForUserAsync(new[] { _configuration["Api01:Scope"] });
             Debug.WriteLine($"access token-{accessToken}");
             _clt.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
         }

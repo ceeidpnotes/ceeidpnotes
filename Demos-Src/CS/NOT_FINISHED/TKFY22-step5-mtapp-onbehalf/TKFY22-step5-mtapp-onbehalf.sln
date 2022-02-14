@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TKFY22-step5-client", "TKFY22-step5-client\TKFY22-step5-client.csproj", "{B3E3FBD6-1DA3-4DAB-BDCB-B505FACD904D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{80EF2F3A-A68B-4D27-B668-45AAC85A99B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TKFY22-step5-mtapp-api-server", "TKFY22-step5-mtapp-api-server\TKFY22-step5-mtapp-api-server.csproj", "{3F69EC87-2138-4C79-8A0D-6D378FAB27BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TKFY22-step5-Api01", "TKFY22-step5-Api01\TKFY22-step5-Api01.csproj", "{E9670B85-7B23-479F-938F-F6D62FF6354A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{F88BFE45-C8A2-419B-B426-1210A6B1720C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3E3FBD6-1DA3-4DAB-BDCB-B505FACD904D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3E3FBD6-1DA3-4DAB-BDCB-B505FACD904D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3E3FBD6-1DA3-4DAB-BDCB-B505FACD904D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3E3FBD6-1DA3-4DAB-BDCB-B505FACD904D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F69EC87-2138-4C79-8A0D-6D378FAB27BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F69EC87-2138-4C79-8A0D-6D378FAB27BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F69EC87-2138-4C79-8A0D-6D378FAB27BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F69EC87-2138-4C79-8A0D-6D378FAB27BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9670B85-7B23-479F-938F-F6D62FF6354A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9670B85-7B23-479F-938F-F6D62FF6354A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9670B85-7B23-479F-938F-F6D62FF6354A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9670B85-7B23-479F-938F-F6D62FF6354A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3F69EC87-2138-4C79-8A0D-6D378FAB27BC} = {F88BFE45-C8A2-419B-B426-1210A6B1720C}
+		{E9670B85-7B23-479F-938F-F6D62FF6354A} = {F88BFE45-C8A2-419B-B426-1210A6B1720C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A040193-F2DD-4CC8-AE78-89CA67A05822}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,75 @@
+﻿{
+	"id": "b1c39c8f-046b-46fb-81c5-62f75951a2bf",
+	"acceptMappedClaims": null,
+	"accessTokenAcceptedVersion": null,
+	"addIns": [],
+	"allowPublicClient": null,
+	"appId": "890ee137-32dc-4bb3-9497-72aa1503e848",
+	"appRoles": [],
+	"oauth2AllowUrlPathMatching": false,
+	"createdDateTime": "2022-02-10T21:32:52Z",
+	"description": null,
+	"certification": null,
+	"disabledByMicrosoftStatus": null,
+	"groupMembershipClaims": null,
+	"identifierUris": [],
+	"informationalUrls": {
+		"termsOfService": null,
+		"support": null,
+		"privacy": null,
+		"marketing": null
+	},
+	"keyCredentials": [],
+	"knownClientApplications": [],
+	"logoUrl": null,
+	"logoutUrl": null,
+	"name": "TKFY22-step5-client",
+	"notes": null,
+	"oauth2AllowIdTokenImplicitFlow": false,
+	"oauth2AllowImplicitFlow": false,
+	"oauth2Permissions": [],
+	"oauth2RequirePostResponse": false,
+	"optionalClaims": null,
+	"orgRestrictions": [],
+	"parentalControlSettings": {
+		"countriesBlockedForMinors": [],
+		"legalAgeGroupRule": "Allow"
+	},
+	"passwordCredentials": [
+		{
+			"customKeyIdentifier": null,
+			"endDate": "2024-02-10T21:54:42.903Z",
+			"keyId": "27e0c2c2-2da5-44fb-88ea-629e108b7a11",
+			"startDate": "2022-02-10T21:54:42.903Z",
+			"value": null,
+			"createdOn": "2022-02-10T21:54:48.4297408Z",
+			"hint": "3RO",
+			"displayName": "def"
+		}
+	],
+	"preAuthorizedApplications": [],
+	"publisherDomain": "tkfreeaad.onmicrosoft.com",
+	"replyUrlsWithType": [
+		{
+			"url": "https://localhost:7052",
+			"type": "Web"
+		}
+	],
+	"requiredResourceAccess": [
+		{
+			"resourceAppId": "00000003-0000-0000-c000-000000000000",
+			"resourceAccess": [
+				{
+					"id": "e1fe6dd8-ba31-4d61-89e7-88639da4683d",
+					"type": "Scope"
+				}
+			]
+		}
+	],
+	"samlMetadataUrl": null,
+	"serviceManagementReference": null,
+	"signInUrl": null,
+	"signInAudience": "AzureADMultipleOrgs",
+	"tags": [],
+	"tokenEncryptionKeyId": null
+}

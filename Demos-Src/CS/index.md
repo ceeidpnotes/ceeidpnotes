@@ -21,5 +21,9 @@ Registration users on Enterprise App (also free Tenant)
 ### TKFY22-step4-mtapp-cosmos-internalapi 
 
 - Full rights setup + Ent app + how to work with groups vs roles
-- (todo) internal API inside the same App
-- (todo) internal API to be consumed from App
+- internal API, separate project (more realisitc)
+
+
+### TKFY22-step5-mtapp-onbehalf 
+
+Client -> Api02 -> (grap api, Api01) with OBO flow

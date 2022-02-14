@@ -1,0 +1,90 @@
+﻿{
+	"id": "f6dd6e8d-5dee-4d6e-bf47-a48199d3e903",
+	"acceptMappedClaims": null,
+	"accessTokenAcceptedVersion": null,
+	"addIns": [],
+	"allowPublicClient": null,
+	"appId": "a3fb2c72-23c8-4790-ae48-20da660ff2eb",
+	"appRoles": [],
+	"oauth2AllowUrlPathMatching": false,
+	"createdDateTime": "2022-02-10T21:57:37Z",
+	"description": null,
+	"certification": null,
+	"disabledByMicrosoftStatus": null,
+	"groupMembershipClaims": null,
+	"identifierUris": [
+		"api://a3fb2c72-23c8-4790-ae48-20da660ff2eb"
+	],
+	"informationalUrls": {
+		"termsOfService": null,
+		"support": null,
+		"privacy": null,
+		"marketing": null
+	},
+	"keyCredentials": [],
+	"knownClientApplications": [],
+	"logoUrl": null,
+	"logoutUrl": null,
+	"name": "TKFY22-step5-mtapp-api-server",
+	"notes": null,
+	"oauth2AllowIdTokenImplicitFlow": true,
+	"oauth2AllowImplicitFlow": false,
+	"oauth2Permissions": [
+		{
+			"adminConsentDescription": "Api02",
+			"adminConsentDisplayName": "Api02",
+			"id": "482a7fe7-d4d8-4985-b385-14f5e8fdb9e1",
+			"isEnabled": true,
+			"lang": null,
+			"origin": "Application",
+			"type": "User",
+			"userConsentDescription": "Api02",
+			"userConsentDisplayName": "Api02",
+			"value": "Api02"
+		}
+	],
+	"oauth2RequirePostResponse": false,
+	"optionalClaims": null,
+	"orgRestrictions": [],
+	"parentalControlSettings": {
+		"countriesBlockedForMinors": [],
+		"legalAgeGroupRule": "Allow"
+	},
+	"passwordCredentials": [
+		{
+			"customKeyIdentifier": null,
+			"endDate": "2024-02-10T22:05:10.609Z",
+			"keyId": "d1d13d48-23ec-4832-b212-62ec1bb850b9",
+			"startDate": "2022-02-10T22:05:10.609Z",
+			"value": null,
+			"createdOn": "2022-02-10T22:05:17.0564703Z",
+			"hint": "ZHR",
+			"displayName": "def"
+		}
+	],
+	"preAuthorizedApplications": [],
+	"publisherDomain": "tkfreeaad.onmicrosoft.com",
+	"replyUrlsWithType": [
+		{
+			"url": "https://localhost:7018",
+			"type": "Web"
+		}
+	],
+	"requiredResourceAccess": [
+		{
+			"resourceAppId": "00000003-0000-0000-c000-000000000000",
+			"resourceAccess": [
+				{
+					"id": "e1fe6dd8-ba31-4d61-89e7-88639da4683d",
+					"type": "Scope"
+				}
+			]
+		}
+	],
+	"samlMetadataUrl": null,
+	"serviceManagementReference": null,
+	"signInUrl": null,
+	"signInAudience": "AzureADMultipleOrgs",
+	"tags": [],
+	"tokenEncryptionKeyId": null
+}

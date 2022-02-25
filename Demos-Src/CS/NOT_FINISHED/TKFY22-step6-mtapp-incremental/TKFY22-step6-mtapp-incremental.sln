@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TKFY22-step6-mtapp-client", "TKFY22-step6-mtapp-client\TKFY22-step6-mtapp-client.csproj", "{4BA5F3CC-6D45-4928-92F5-5013A07E2918}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TKFY22-step6-mtapp-webapi", "TKFY22-step6-mtapp-webapi\TKFY22-step6-mtapp-webapi.csproj", "{26841796-6BDF-4064-8AAC-A7F566F200EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BA5F3CC-6D45-4928-92F5-5013A07E2918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BA5F3CC-6D45-4928-92F5-5013A07E2918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BA5F3CC-6D45-4928-92F5-5013A07E2918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BA5F3CC-6D45-4928-92F5-5013A07E2918}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26841796-6BDF-4064-8AAC-A7F566F200EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26841796-6BDF-4064-8AAC-A7F566F200EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26841796-6BDF-4064-8AAC-A7F566F200EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26841796-6BDF-4064-8AAC-A7F566F200EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59F11A9C-4A33-4821-A9DC-1C30B517C5C5}
+	EndGlobalSection
+EndGlobal

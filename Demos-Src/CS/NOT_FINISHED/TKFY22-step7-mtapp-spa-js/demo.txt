@@ -1,0 +1,6 @@
+npx create-react-app tkfy22-step7-mtapp-spa-js-react
+npm install @azure/msal-browser @azure/msal-react
+npm install react-bootstrap bootstrap
+npm audit fix
+
+Code - Visual Studio 2022

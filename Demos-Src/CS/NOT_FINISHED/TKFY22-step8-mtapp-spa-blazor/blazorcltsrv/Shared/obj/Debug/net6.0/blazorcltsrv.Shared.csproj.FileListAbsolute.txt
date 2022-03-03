@@ -1,0 +1,12 @@
+Z:\AzFY21-PaaS02\10-Autoryzacja-AAD\TKFY22-step8-mtapp-spa-blazor\blazorcltsrv\Shared\bin\Debug\net6.0\blazorcltsrv.Shared.deps.json
+Z:\AzFY21-PaaS02\10-Autoryzacja-AAD\TKFY22-step8-mtapp-spa-blazor\blazorcltsrv\Shared\bin\Debug\net6.0\blazorcltsrv.Shared.dll
+Z:\AzFY21-PaaS02\10-Autoryzacja-AAD\TKFY22-step8-mtapp-spa-blazor\blazorcltsrv\Shared\bin\Debug\net6.0\ref\blazorcltsrv.Shared.dll
+Z:\AzFY21-PaaS02\10-Autoryzacja-AAD\TKFY22-step8-mtapp-spa-blazor\blazorcltsrv\Shared\bin\Debug\net6.0\blazorcltsrv.Shared.pdb
+Z:\AzFY21-PaaS02\10-Autoryzacja-AAD\TKFY22-step8-mtapp-spa-blazor\blazorcltsrv\Shared\obj\Debug\net6.0\blazorcltsrv.Shared.csproj.AssemblyReference.cache
+Z:\AzFY21-PaaS02\10-Autoryzacja-AAD\TKFY22-step8-mtapp-spa-blazor\blazorcltsrv\Shared\obj\Debug\net6.0\blazorcltsrv.Shared.GeneratedMSBuildEditorConfig.editorconfig
+Z:\AzFY21-PaaS02\10-Autoryzacja-AAD\TKFY22-step8-mtapp-spa-blazor\blazorcltsrv\Shared\obj\Debug\net6.0\blazorcltsrv.Shared.AssemblyInfoInputs.cache
+Z:\AzFY21-PaaS02\10-Autoryzacja-AAD\TKFY22-step8-mtapp-spa-blazor\blazorcltsrv\Shared\obj\Debug\net6.0\blazorcltsrv.Shared.AssemblyInfo.cs
+Z:\AzFY21-PaaS02\10-Autoryzacja-AAD\TKFY22-step8-mtapp-spa-blazor\blazorcltsrv\Shared\obj\Debug\net6.0\blazorcltsrv.Shared.csproj.CoreCompileInputs.cache
+Z:\AzFY21-PaaS02\10-Autoryzacja-AAD\TKFY22-step8-mtapp-spa-blazor\blazorcltsrv\Shared\obj\Debug\net6.0\blazorcltsrv.Shared.dll
+Z:\AzFY21-PaaS02\10-Autoryzacja-AAD\TKFY22-step8-mtapp-spa-blazor\blazorcltsrv\Shared\obj\Debug\net6.0\ref\blazorcltsrv.Shared.dll
+Z:\AzFY21-PaaS02\10-Autoryzacja-AAD\TKFY22-step8-mtapp-spa-blazor\blazorcltsrv\Shared\obj\Debug\net6.0\blazorcltsrv.Shared.pdb

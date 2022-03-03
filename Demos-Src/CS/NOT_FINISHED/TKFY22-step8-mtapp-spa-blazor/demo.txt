@@ -1,0 +1,5 @@
+
+dotnet new blazorwasm -au SingleOrg --api-client-id "{SERVER API APP CLIENT ID}" --app-id-uri "{SERVER API APP ID URI}" --client-id "{CLIENT APP CLIENT ID}" --default-scope "{DEFAULT SCOPE}" --domain "{TENANT DOMAIN}" -ho -o {APP NAME} --tenant-id "{TENANT ID}"
+
+
+dotnet new blazorwasm -au SingleOrg --api-client-id "e9f539b8-5d4e-457b-9d6b-cae89ac270cd" --app-id-uri "e9f539b8-5d4e-457b-9d6b-cae89ac270cd" --client-id "1826bd31-ff88-428a-811b-a9052c1ffee8" --default-scope "API.Access" --domain "commond" -ho -o blazorcltsrv --tenant-id "common"

@@ -2,6 +2,10 @@
 
 Simplest MT app - with hardcoded tenant
 
+Demo "assigned users"
+
+Difference Ent Registration and App Registration
+
 ### TKFY22-step2-mtapp-cosmos
 
 MT app with tenant information stored from Cosmos DB (enabled/disable) 
